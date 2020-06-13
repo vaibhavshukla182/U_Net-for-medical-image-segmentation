@@ -7,9 +7,18 @@ I have not implemented the architecture as it is but made some minor changes lik
 The final architecture I used is as follows:
 <img src ="graph_run.png">
 
+arch.py - file contains the code for the architecture <br/><br/>
+data.py - file contains all the neccesary code for data preprocessing, one can make changes in this file according to their own dataset
+#### To train-
+python main.py
+
+#### Requirement:
+Tensorflow>=1.13.1
+#### Dataset used here:
+2018 Data Science Bowl | Kaggle <br/><br/>
 I have trained this architecture for cell nucleus detection from images.Masks of the cell nuclei are provided with the dataset to train our model for segmentation purpose.Training image example-
 <img src ="images/train.png">
-## Mask of the above image-
+#### Mask of the above image-
 <br/>
 
 <img src = "images/mask.png">
